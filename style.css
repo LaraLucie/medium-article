@@ -1,0 +1,57 @@
+body {
+  background-color: #EEF2FF;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Poppins;
+}
+
+.box-white {
+  background-color: white;
+  text-align: center;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #CDDEFF;
+  margin: 32px auto;
+  width: 60%;
+}
+
+.background-pic{
+  background-image: url("images/coolspacephoto.png");
+  /* height: 400px; */
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  color: white;
+}
+
+h1:hover, .h3-red:hover {
+  color: #FF5959;
+  transition: 1s;
+}
+
+p {
+  text-align: justify;
+  margin: 40px;
+}
+
+a {
+  background-color: #676FA3;
+  color: white;
+  border-radius: 5px;
+  padding: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #CDDEFF;
+  color: #FF5959;
+  transition: 0.5s;
+  transform: scale(2);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
